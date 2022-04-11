@@ -5,7 +5,7 @@ Ammount-counting service provides functionality for allocating total amount betw
 
 # Built With
 1. Java 11 
-2. Maven v.4.0.0
+2. Maven V4.0.0
 
 # Getting Started
 1. Clone this repository with SSH

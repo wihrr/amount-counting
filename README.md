@@ -17,12 +17,12 @@ Ammount-counting service provides functionality for allocating total salary amou
    git clone git@github.com:wihrr/amount-counting.git
    
    ```
-5. Configure file amount-counting/src/main/resources/application.yaml:
+5. Configure file amount-counting/amount-counting/src/main/resources/application.yaml:
    - url - http://some-service, without 'period/2022-03'
    - date-format - date format for 'some service', for example: yyyy-MM-dd'T'HH:mm:ss.SSSZ
    
 6. Build application: 
-   - Go to amount-counting folder 
+   - Go to amount-counting/amount-counting folder 
    - Execute comand: mvn clean package
 
 7. Run the application:

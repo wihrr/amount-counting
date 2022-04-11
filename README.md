@@ -1,7 +1,7 @@
 # About The Project
 Amount-counting is the RESTful webservice which works with worklog. Third party service gives us worklog of all employees for time - period. URL-example: http://some-service/period/2022-03
 
-Ammount-counting service provides functionality for allocating total amount between team members according time worked.
+Ammount-counting service provides functionality for allocating total salary amount between team members according time worked.
 
 # Built With
 1. Java 11 
@@ -23,7 +23,7 @@ Ammount-counting service provides functionality for allocating total amount betw
 SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lomboc
 
 # Usage
-As I said ammount-counting service provides functionality for allocating total amount between team members according time worked.
+As I said ammount-counting service provides functionality for allocating total salary amount between team members according time worked.
 To see endpoints you can go to the Swagger-documentation when you run ammount-counting. For this go to the 
 ```
 http://localhost:8080/swagger-ui.html

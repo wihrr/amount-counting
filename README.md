@@ -15,22 +15,21 @@ Ammount-counting service provides functionality for allocating total salary amou
 4. Exect in terminal 
    ```
    git clone git@github.com:wihrr/amount-counting.git
-   
    ```
-5. Configure file amount-counting/src/main/resources/application.yaml:
-   - url - http://some-service, without 'period/2022-03'
-   - date-format - date format for 'some service', for example: yyyy-MM-dd'T'HH:mm:ss.SSSZ
+5. Configure file _amount-counting/src/main/resources/application.yaml_:
+   - _worklog.url_ - URL for external worklog service, for example: _http://some-service_, without 'period/2022-03'
+   - _worklog.date-format_ - date format for 'some service', for example: _yyyy-MM-dd'T'HH:mm:ss.SSSZ_
    
 6. Build application: 
-   - Go to amount-counting folder 
-   - Execute comand: mvn clean package
+   - Go to _amount-counting_ folder 
+   - Execute comand: _mvn clean package_
 
 7. Run the application:
-   - Go to target folder    
-   - Execute comand: java -jar amount-counting-0.0.1-SNAPSHOT.jar 
+   - Go to _target_ folder    
+   - Execute comand: _java -jar amount-counting-0.0.1-SNAPSHOT.jar_ 
 
-# Technology steck
-SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lomboc
+# Technology stack
+SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lombok
 
 # Usage
 As I said ammount-counting service provides functionality for allocating total salary amount between team members according time worked.

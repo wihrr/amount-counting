@@ -23,10 +23,12 @@ Ammount-counting service provides functionality for allocating total salary amou
    
 6. Build application: 
    Go to amount-counting folder 
+   
    Execute comand: mvn clean package
 
 7. Run the application:
    Go to target folder 
+   
    Execute comand: java -jar 
 
 # Technology steck

@@ -12,12 +12,22 @@ Ammount-counting service provides functionality for allocating total salary amou
 ![image](https://user-images.githubusercontent.com/73289793/162756775-63273fd1-a02d-40e6-9a8a-6634fba9677f.png)
 
 3. Open the folder you want to store application
-4. Open terminal and write 
+4. Exect in terminal 
    ```
    git clone git@github.com:wihrr/amount-counting.git
+   
    ```
-5. Open your IDE and open pom.xmp file as a project  
-6. Run the application
+5. Configure file amount-counting/src/main/resources/application.yaml:
+   url - http://some-service, without 'period/2022-03'
+   date-format - date format for 'some service', for example: yyyy-MM-dd'T'HH:mm:ss.SSSZ
+   
+6. Build application: 
+   Go to amount-counting folder 
+   Execute comand: mvn clean package
+
+7. Run the application:
+   Go to target folder 
+   Execute comand: java -jar 
 
 # Technology steck
 SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lomboc

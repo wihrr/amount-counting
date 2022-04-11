@@ -27,7 +27,7 @@ Ammount-counting service provides functionality for allocating total salary amou
 
 7. Run the application:
    - Go to target folder    
-   - Execute comand: java -jar 
+   - Execute comand: java -jar amount-counting-0.0.1-SNAPSHOT.jar 
 
 # Technology steck
 SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lomboc

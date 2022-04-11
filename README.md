@@ -5,7 +5,7 @@ Ammount-counting service provides functionality for allocating total salary amou
 
 # Built With
 1. Java 11 
-2. Maven V4.0.0
+2. Maven V3.6.3
 
 # Getting Started
 1. Clone this repository with SSH

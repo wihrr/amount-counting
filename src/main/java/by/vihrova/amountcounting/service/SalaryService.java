@@ -12,5 +12,5 @@ public interface SalaryService {
     /**
      * Method to allocate total amount inside the team
      */
-    List<EmployeeDto> allocate (String period, double totalAmount, List<Long> team);
+    List<EmployeeDto> allocate(String period, double totalAmount, List<Long> team);
 }

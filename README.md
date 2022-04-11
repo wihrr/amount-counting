@@ -4,7 +4,7 @@ Amount-counting is the RESTful webservice which works with worklog. Third party 
 Ammount-counting service provides functionality for allocating total amount between team members according time worked.
 
 # Built With
-1. Java 11 (https://www.oracle.com/java/technologies/downloads/#java11)
+1. Java 11 
 2. Maven v.4.0.0
 
 # Getting Started

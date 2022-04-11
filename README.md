@@ -17,6 +17,7 @@ Ammount-counting service provides functionality for allocating total amount betw
    git clone git@github.com:wihrr/amount-counting.git
    ```
 5. Open your IDE and open pom.xmp file as a project  
+6. Run the application
 
 # Technology steck
 SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lomboc

@@ -22,14 +22,12 @@ Ammount-counting service provides functionality for allocating total salary amou
    date-format - date format for 'some service', for example: yyyy-MM-dd'T'HH:mm:ss.SSSZ
    
 6. Build application: 
-   Go to amount-counting folder 
-   
-   Execute comand: mvn clean package
+   - Go to amount-counting folder 
+  - Execute comand: mvn clean package
 
 7. Run the application:
-   Go to target folder 
-   
-   Execute comand: java -jar 
+   - Go to target folder    
+   - Execute comand: java -jar 
 
 # Technology steck
 SpringBoot, Spring Web, Spring Cloud OpenFeign, Swagger, Lomboc
